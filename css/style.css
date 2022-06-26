@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* font-family: 'Handlee', cursive; */
+font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* top-container-start */
+.container-top{
+    background-color: #03668e;
+    color: white;
+}
+.social-link{
+    padding-right: 5px;
+}
+.social-link a{
+    color: #bcbcbc;
+    font-size: 14px;
+    line-height: 1;
+    padding: 10px 15px;
+}
+.social-link a:hover{
+    color: white;
+}
+.left-div p{
+    padding: 10px 20px;
+}
+/* top-container-end */
+/* navigation-bar-start */
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.navbar-brand img{
+    width: 160px;
+    height: auto;
+}
+/* navigation-bar-end */
+/* carousel-start */
+.carousel-inner{
+    height: 100vh;
+}
+/* carousel-end */
+/* card-start */
+#card-section{
+    margin-top: 10px;
+}
+.card{
+    background-color: #03668e;
+    /* border-radius: 15px; */
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+.card img{
+    position: relative;
+    display: block;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: 7px solid #03668e;
+    margin-top: -150px;
+}   
+.card p{
+    text-align: justify;
+    color: white;
+    padding: 20px;
+}
+.card h2{
+    font-family:'Handlee', cursive;
+    color: white;
+    padding: 20px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card:hover img{
+    border-color: gray;
+    transition: 0.7s;
+}
+/* card-end */
