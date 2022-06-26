@@ -1,39 +1,59 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     /* font-family: 'Handlee', cursive; */
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto', sans-serif;
 }
-h1,h2,h3,h4,h5,h6,p,a{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
     margin: 0px;
     padding: 0px;
 }
 
 /* top-container-start */
-.container-top{
+.container-top {
     background-color: #03668e;
     color: white;
 }
-.social-link{
+
+.social-link {
     padding-right: 5px;
 }
-.social-link a{
+
+.social-link a {
     color: #bcbcbc;
     font-size: 14px;
     line-height: 1;
     padding: 10px 15px;
 }
-.social-link a:hover{
+
+.social-link a:hover {
     color: white;
 }
-.left-div p{
+
+.left-div p {
     padding: 10px 20px;
 }
+
 /* top-container-end */
 /* navigation-bar-start */
 .navbar-brand {
@@ -42,43 +62,52 @@ h1,h2,h3,h4,h5,h6,p,a{
     margin-right: 2rem;
     text-decoration: none;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 160px;
     height: auto;
 }
-.donate-btn{
+
+.donate-btn {
     border: 4px solid #03668e;
     border-radius: 10px;
     color: #03668e;
 }
-.donate-btn:hover{
+
+.donate-btn:hover {
     border: 4px solid #03668e;
     color: #ffffff;
-    background-color:#03668e;
+    background-color: #03668e;
     transition: 0.5s;
     font-weight: bolder;
 }
+.nav-link{
+    color: #03668e;
+}
 /* navigation-bar-end */
 /* carousel-start */
-.carousel-inner{
+.carousel-inner {
     height: 100vh;
 }
+
 /* carousel-end */
 /* card-start */
-#card-section{
+#card-section {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.card{
+
+.card {
     background-color: #03668e;
     /* border-radius: 15px; */
-    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-bottom: 20px;
-   
+
 }
-.card img{
+
+.card img {
     position: relative;
     display: block;
     z-index: 1;
@@ -88,21 +117,25 @@ h1,h2,h3,h4,h5,h6,p,a{
     height: 200px;
     border: 7px solid #03668e;
     margin-top: -150px;
-}   
-.card p{
+}
+
+.card p {
     text-align: justify;
     color: white;
     padding: 20px;
 }
-.card h2{
-    font-family:'Handlee', cursive;
+
+.card h2 {
+    font-family: 'Handlee', cursive;
     color: white;
     padding: 20px 0px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.card:hover img{
-    border-color: whitesmoke;
+
+.card:hover img {
+    border-color: #023955;
     transition: 0.7s;
 }
+
 /* card-end */
