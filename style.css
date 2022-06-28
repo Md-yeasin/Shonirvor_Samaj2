@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+/* font-family: 'Montserrat', sans-serif; Regular 400, Regular 400 italic, Medium 500, SemiBold 600, Bold 700, ExtraBold 800 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Handlee', cursive; */
+    /* font-family: 'Arvo', serif;  */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Arvo', serif;  */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* top-container-start */
+.container-top {
+    background-color: #03668e;
+    color: white;
+}
+
+.social-link {
+    padding-right: 5px;
+}
+
+.social-link a {
+    color: #bcbcbc;
+    font-size: 14px;
+    line-height: 1;
+    padding: 10px 15px;
+}
+
+.social-link a:hover {
+    color: white;
+}
+
+.left-div p {
+    padding: 10px 20px;
+}
+
+/* top-container-end */
+/* navigation-bar-start */
+
+.navbar-toggler-icon i{
+    color: #03668e;
+    font-size: 35px;
+    border: none;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 160px;
+    height: auto;
+}
+
+.donate-btn {
+    border: 4px solid #03668e;
+    border-radius: 5px;
+    color: #03668e;
+}
+
+.donate-btn:hover {
+    border: 4px solid #03668e;
+    color: #ffffff;
+    background-color: #03668e;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: #363838;
+    font-weight: 700;
+}
+.nav-link:hover {
+    color: #03668e;
+    font-weight: 700;
+}
+.nav-item {
+    padding: 0px 12px;
+}
+/* navigation-bar-end */
+
+/* carousel-start */
+.carousel-inner {
+    height: 85vh;
+    overflow: hidden;
+}
+.carousel-item{
+    height: 100%;
+}
+/* carousel-end */
+
+/* card-start */
+#card-section {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.card {
+    background-color: #03668e;
+    /* border-radius: 15px; */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 30px;
+
+}
+
+.card img {
+    position: relative;
+    display: block;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 180px;
+    margin-top: -130px;
+}
+
+.card p {
+    text-align: justify;
+    color: white;
+    padding: 20px;
+}
+
+.card h2 {
+    color: white;
+    padding: 20px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card:hover img {}
+
+/* card-end */
+
+/* Our-story start */
+#our-story-section {
+    margin-bottom: 75px;
+}
+
+.story-text-wrap {
+    padding: 0px 20px;
+}
+
+.story-heading-div i {
+    color: #03668e;
+    font-size: 25px;
+    position: relative;
+    top: -4px;
+}
+
+.story-heading-div h2 {
+    color: #03668e;
+    font-size: 37px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.story-text-div p {
+    text-align: justify;
+    padding: 20px 0px;
+    line-height: 1.6rem;
+}
+
+.story-text-wrap btn {
+    border: 2px solid;
+}
+
+/* Our-story end */
+
+
+/* small carousel start */
+.small-carousel-btn{
+    display: block;
+    padding-top: 15px;
+    color: #03668e;
+}
+
+.description p{
+    text-align: justify;
+}
+
+#small-carousel-section h2 {
+    color: #03668e;
+    font-size: 37px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#small-carousel-section i {
+    color: #03668e;
+    font-size: 25px;
+    margin-bottom: -5px;
+    position: relative;
+    top: -5px;
+}
+
+.info h3 a {
+    color: #03668e;
+    font-size: 27px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+#small-carousel-section {
+    background: #f1f1f1;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.testimonial-item {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.img-thumb {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.img-thumb img {
+    padding: 5px;
+    display: inline-block;
+    width: inherit !important;
+    margin: auto;
+}
+
+.info h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 30px;
+    padding: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 20px;
+}/* small carousel end */
+
+/* become-a-volunteer start */
+
+#become-vl-section{
+    background-image: url("images/become-vl.jpg");
+    background-size: cover;
+}
+#become-vl-section .overlay {
+    background: rgba(3, 102, 142, 0.75);
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+    color: #ffffff;
+   }
+   #become-vl-section .overlay h1 {
+    text-transform: uppercase;
+    padding: 20px 0px;
+   }
+   #become-vl-section .overlay h6{
+    
+   }
+#become-vl-section .overlay a{
+    color: #000000;
+}
+#become-vl-section .overlay button{
+    background-color: #ffe600;
+}
+#become-vl-section .overlay button:hover{
+    background-color: #ffffff;
+}/* become-a-volunteer end */
+
+/* footer start */
+.footer{
+    background-color: #ffffff;
+    display: block;
+}
+.footer p{
+    color: #000000;
+    padding: 20px 5px;
+    font-size: 16px;
+}
+.footer span{
+    color: #009e61;
+    font-weight: 700;
+}
+.footer img{
+    margin-bottom: 3px;
+}
+/* footer end */
