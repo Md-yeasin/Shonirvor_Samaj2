@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
 html {
     scroll-behavior: smooth;
 }
@@ -22,8 +26,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
-    /* font-family: 'Arvo', serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Arvo', serif;  */
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
@@ -141,7 +146,6 @@ a {
 }
 
 .card h2 {
-    font-family: 'Handlee', cursive;
     color: white;
     padding: 20px 0px;
     font-weight: 700;
@@ -159,21 +163,16 @@ a {
 .story-text-wrap{
     padding: 0px 20px;
 }
-.vr{
-    border-left: 4px solid #03668e;
-    height: 30px;
-}
+
 .story-heading-div i{
     color: #03668e;
-    font-size: 29px;
-    margin-bottom: -5px;
+    font-size: 25px;
     position: relative;
-    top: -3px;
+    top: -4px;
 }
 .story-heading-div h2{
     color: #03668e;
-    font-weight: 600;
-    font-family:'Handlee', cursive;
+    font-size: 37px;
     padding-bottom: 10px;
     text-transform: uppercase;
 }
@@ -188,12 +187,32 @@ a {
 
 
 /* small carousel start */
+#small-carousel-section h2{
+    color: #03668e;
+    font-size: 37px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#small-carousel-section i{
+    color: #03668e;
+    font-size: 25px;
+    margin-bottom: -5px;
+    position: relative;
+    top: -5px;
+}
+.info h3 a{
+    color: #03668e;
+    font-size: 27px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0px;
+}
 #small-carousel-section {
-    background: #03668e;
+    background: #f1f1f1;
 }
-#small-carousel-section .item{
-    padding: 0px 15px;
-}
+
 .section-padding {
     padding: 60px 0;
 }
@@ -201,8 +220,9 @@ a {
     max-width: 1140px;
     margin: auto;
 } */
+
 .testimonial-item {
-    background: #fff;
+    background-color: #f1f1f1;
     border-radius: 4px;
     text-align: center;
     padding: 15px 15px;
@@ -219,9 +239,7 @@ a {
     width: inherit !important;
     margin: auto;
 }
-.info h2 a {
-    color: #333;
-}
+
 .info h2 {
     font-size: 16px;
     text-transform: uppercase;
@@ -229,7 +247,6 @@ a {
     padding: 20px;
 }
 .description p {
-    color: #333;
     text-align: justify;
 }
 .owl-theme .owl-dots .owl-dot span {
