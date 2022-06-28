@@ -17,7 +17,6 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
 }
 
 h1,
@@ -43,6 +42,7 @@ a {
     margin: 0px;
     padding: 0px;
 }
+
 a {
     text-decoration: none;
 }
@@ -74,9 +74,10 @@ a {
 
 /* top-container-end */
 /* navigation-bar-start */
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: #03668e;
 }
+
 .navbar-brand {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -102,15 +103,18 @@ a {
     transition: 0.5s;
     font-weight: bolder;
 }
-.nav-link{
+
+.nav-link {
     color: #03668e;
 }
+
 /* navigation-bar-end */
 
 /* carousel-start */
 .carousel-inner {
     height: 85vh;
 }
+
 /* carousel-end */
 
 /* card-start */
@@ -152,56 +156,64 @@ a {
     text-transform: uppercase;
 }
 
-.card:hover img {
-   
-}/* card-end */
+.card:hover img {}
+
+/* card-end */
 
 /* Our-story start */
-#our-story-section{
+#our-story-section {
     margin-bottom: 60px;
 }
-.story-text-wrap{
+
+.story-text-wrap {
     padding: 0px 20px;
 }
 
-.story-heading-div i{
+.story-heading-div i {
     color: #03668e;
     font-size: 25px;
     position: relative;
     top: -4px;
 }
-.story-heading-div h2{
+
+.story-heading-div h2 {
     color: #03668e;
     font-size: 37px;
     padding-bottom: 10px;
     text-transform: uppercase;
 }
-.story-text-div p{
+
+.story-text-div p {
     text-align: justify;
     padding: 20px 0px;
     line-height: 1.6rem;
 }
-.story-text-wrap btn{
+
+.story-text-wrap btn {
     border: 2px solid;
-}/* Our-story end */
+}
+
+/* Our-story end */
 
 
 /* small carousel start */
-#small-carousel-section h2{
+#small-carousel-section h2 {
     color: #03668e;
     font-size: 37px;
     padding-bottom: 10px;
     text-transform: uppercase;
     text-align: center;
 }
-#small-carousel-section i{
+
+#small-carousel-section i {
     color: #03668e;
     font-size: 25px;
     margin-bottom: -5px;
     position: relative;
     top: -5px;
 }
-.info h3 a{
+
+.info h3 a {
     color: #03668e;
     font-size: 27px;
     padding-bottom: 10px;
@@ -209,6 +221,7 @@ a {
     text-align: center;
     padding: 15px 0px;
 }
+
 #small-carousel-section {
     background: #f1f1f1;
 }
@@ -216,6 +229,7 @@ a {
 .section-padding {
     padding: 60px 0;
 }
+
 /* .container {
     max-width: 1140px;
     margin: auto;
@@ -227,12 +241,14 @@ a {
     text-align: center;
     padding: 15px 15px;
 }
+
 .img-thumb {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
     text-align: center;
 }
+
 .img-thumb img {
     padding: 5px;
     display: inline-block;
@@ -246,14 +262,38 @@ a {
     font-weight: 30px;
     padding: 20px;
 }
+
 .description p {
     text-align: justify;
 }
+
+.description a {
+    text-align: center;
+    color: #03668e;
+}
+
+.description a:hover {
+    font-weight: bold;
+}
+
 .owl-theme .owl-dots .owl-dot span {
     background: #fff;
     border: 2px solid #fff;
 }
-.owl-theme .owl-nav.disabled + .owl-dots {
+
+.owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 20px;
+}/* small carousel end */
+
+/* become-a-volunteer start */
+
+#become-vl-section{
+    background-image: url("images/become.jpg");
 }
-/* small carousel start */
+.overlay {
+    background: rgba(3, 102, 142, 0.5);
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+   }
+/* become-a-volunteer end */
