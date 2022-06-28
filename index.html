@@ -35,9 +35,8 @@
         <div class="container-fluid container-top">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="left-div d-flex align-items-center ">
-                    <p class="class=" mailto" href="mailto:contact@test.com""><i class=" fas fa-envelope px-2"></i>
-                        admin@shonirvor.org</p>
-                    <p class="d-md-block"><i class="fas fa-phone px-2"></i> +880 1878 03 03 03</p>
+                    <p><i class=" fas fa-envelope px-md-2 "></i><span class="d-none d-md-inline-block">admin@shonirvor.org</span></p>
+                    <p><i class="fas fa-phone px-md-2"></i> <span class="d-none d-md-inline-block">+880 1878 03 03 03</span></p>
                 </div>
                 <div class="right-div">
                     <div class="social-link">
@@ -82,7 +81,7 @@
                                     <a class="nav-link" href="getinvolve.html">GET INVOLVED</a>
                                 </li </ul>
                         </div>
-                        <a href="donate.html"><button class="btn donate-btn ">DONATE</button></a>
+                        <a href="donate.html" class="d-none d-md-block"><button class="btn donate-btn donate-btn-hide ">DONATE</button></a>
                     </div>
                 </nav>
             </div>
@@ -133,7 +132,7 @@
         <section id="card-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-12 ">
+                    <div class="col-lg-4 col-sm-12 card-col ">
                         <div class="card h-100 p-10 text-center">
                             <div class="img-div">
                                 <img class="rounded-circle" src="images/belief.jpg" alt="be">
@@ -145,7 +144,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12 ">
+                    <div class="col-lg-4 col-sm-12 card-col">
                         <div class="card h-100 p-10 text-center">
                             <div class="img-div">
                                 <img class="rounded-circle" src="images/mission.jpg" alt="be">
@@ -157,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12 ">
+                    <div class="col-lg-4 col-sm-12 card-col">
                         <div class="card h-100 p-10 text-center">
                             <div class="img-div">
                                 <img class="rounded-circle" src="images/vission.jpg" alt="be">
@@ -177,20 +176,21 @@
 <section id="our-story-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 overflow-hidden">
-                <img src="images/video_thumbnail.jpg" alt="Video Thumbnail">
-            </div>
-
-            <div class="col-lg-6 col-md-12">
+            <div class=" story-text-mergin col-lg-6 col-md-12">
                 <div class="story-text-wrap">
-                    <div class="story-heading-div">
+                    <div class="story-heading-div text-center">
                         <h2><i class="bi bi-square-fill pe-2"></i>Our story | Who are we?</h2>
                     </div>
                     <div class="story-text-div">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ut, consequatur cupiditate pariatur temporibus distinctio architecto blanditiis nobis eius earum impedit sunt officiis consectetur ratione vel provident. Facere optio dolorem, sit in sapiente reprehenderit quis nobis fugit ipsa nam a minima ducimus pariatur autem necessitatibus repellendus libero modi quae! Vitae!</p>
                     </div>
-                    <a href="#"><button class="btn donate-btn">READ MORE</button></a>
+                    <div class="text-center">
+                        <a href="#"><button class="btn story-btn-customize donate-btn">READ MORE</button></a>
+                    </div>
                 </div>
+            </div>
+            <div class="vthumpnail col-lg-6 col-md-12 overflow-hidden m-auto">
+                <img src="images/video_thumbnail.jpg" alt="Video Thumbnail">
             </div>
         </div>
     </div>
