@@ -125,10 +125,11 @@ a {
 /* navigation-bar-end */
 
 /* carousel-start */
-.carousel-inner {
+
+/* .carousel-inner {
     height: 85vh;
     overflow: hidden;
-}
+} */
 .carousel-item{
     height: 100%;
 }
