@@ -372,13 +372,71 @@ a {
 .footer img {
     margin-bottom: 3px;
     width: 60px;
+}/* footer end */
+
+/* Projects pages start */
+#project-caption{
+    background-image: url(images/Projects.jpg);
 }
+#project-caption .overlay{
+    background: rgba(3, 102, 142, 0.75);
+}
+.#project-caption .content{
+    padding: 30px 10px;
+}
+#project-caption .content h2{
+    color: #ffffff;
+    padding-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#project-caption .content p{
+    color: #ffe600;
+    padding-bottom: 20px;
+}
+#project-side-nav{
+    background-color: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ffffff;
+}
+#project-side-nav .nav{
+    border-right: 2px solid #aeaaaa;
+    padding-left: 5px;
+}
+.tab-content{
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 460px;
+    border-radius: 15px;
+    padding: 30px 25px;
+}
+.tab-pane h2{
+    color: #03668e;
+    padding: 20px 0px;
+}
+.tab-pane p{
+    font-size: 15px;
+    line-height: 1.7rem;
+}
+.nav-link{
+    font-size: 17px;
+    font-weight: 450;
+}
+.nav-link:hover{
+    color: #03668e;
+}
+.nav-pills .nav-link.active{
+    background-color: #03668e;
+}
+/* Projects pages end */
 
-/* footer end */
+
+
+
+
 /* Media Qurery */
-/* // Small devices (landscape phones, 576px and up) */
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575.98px) {
     .right-div .social-link a {
         padding: 5px;
     }
@@ -386,54 +444,6 @@ a {
     .left-div p {
         padding: 10px 8px;
     }
-
-    /*Styel-1
-     #card-section {
-        margin-bottom: 10px;
-    }
-     .card img {
-        width: 130px;
-        height: 130px;
-        margin-top: -130px;
-        border: 10px solid #03668e;
-    }
-    .card {
-        background-color: #03668e;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-radius: 10px;
-        padding-top: 20px;
-    }
-    .card-col{
-        margin-bottom: 130px;
-    }
-    .card-col:nth-child(1){
-        margin-top: 120px;
-    } */
-
-    /*Style-2
-     #card-section {
-        margin-bottom: 10px;
-    }
-     .card img {
-        width: 130px;
-        height: 130px;
-    }
-    .card {
-        background-color: #03668e;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-radius: 10px;
-        padding-top: 20px;
-    }
-    .card-col{
-        margin-bottom: 130px;
-    }
-    .card-col:nth-child(1){
-        margin-top: 120px;
-    }  */
-
-    /* style-3-end */
 
     .card img {
         width: 130px;
