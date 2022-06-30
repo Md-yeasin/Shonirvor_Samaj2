@@ -407,7 +407,7 @@ a {
 .tab-content{
     background-color: #ffffff;
     overflow: hidden;
-    height: 460px;
+    height: 100%;
     border-radius: 15px;
     padding: 30px 25px;
 }
@@ -553,5 +553,16 @@ a {
     
     .footer img {
         margin-bottom: 3px;
+    }
+    /* projects page */
+    #project-side-nav{
+        padding-top: 15px;
+    }
+    #project-caption .content p{
+        font-size: 14px;
+    }
+    #project-side-nav .nav{
+        border-right: none;
+        padding-bottom: 15px;
     }
 }
