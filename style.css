@@ -88,10 +88,13 @@ a {
 
 /* top-container-end */
 /* navigation-bar-start */
-
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 2px solid #03668e;
+  }
 .navbar-toggler-icon i {
     color: #03668e;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .navbar-brand {
@@ -377,6 +380,7 @@ a {
 /* Projects pages start */
 #project-caption{
     background-image: url(images/Projects.jpg);
+    background-size: cover;
 }
 #project-caption .overlay{
     background: rgba(3, 102, 142, 0.75);
