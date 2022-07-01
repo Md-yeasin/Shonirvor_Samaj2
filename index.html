@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shonirvor Samaj</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/logo.svg">
+
 
 
     <!--Icon CSS-->
@@ -24,68 +26,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+
     <link rel="stylesheet" href="style.css">
 
-    
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid container-top">
-            <div class="container d-flex justify-content-between align-items-center">
-                <div class="left-div d-flex align-items-center ">
-                    <p><i class=" fas fa-envelope px-md-2 "></i><span class="d-none d-md-inline-block">admin@shonirvor.org</span></p>
-                    <p><i class="fas fa-phone px-md-2"></i> <span class="d-none d-md-inline-block">+880 1878 03 03 03</span></p>
-                </div>
-                <div class="right-div">
-                    <div class="social-link">
-                        <a href="https://facebook.com/shonirvor.samaj"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/shonirvor.samaj"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.youtube.com/channel/UCNK0k1r--XPNrgHLCLCTz_w"><i
-                                class="fab fa-youtube"></i></a>
-                        <a href="https://instagram.com/shonirvor.samaj"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- navigation bar start -->
-        <div class="container-fluid ">
-            <div class="container navigation-wrap">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="images/icon/logo.svg" alt="logo"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">ABOUT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="projects.html">PROJECTS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">GALLERY</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">CONTACT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="getinvolve.html">GET INVOLVED</a>
-                                </li </ul>
-                        </div>
-                        <a href="donate.html" class="d-none d-md-block"><button class="btn donate-btn donate-btn-hide ">DONATE</button></a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>  <!--navigation bar end -->
+    <div id="header"></div>
+
     <main>
         <!-- carousel-start -->
         <section id="carousel-section">
@@ -402,11 +360,7 @@
 </section> <!-- become-vl-section end -->
     </main>
 
-    <footer>
-<div class="footer text-center">
-    <p>&#64;All Right Reserved 2022 <strong style="color: #03668e;">SHONIRVOR SAMAJ</strong> | Developed by <a href="https://climax-it.com" target="_blank"><img width="80" height="auto" src="images/icon/climax.svg" alt="climax"></a></p>
-</div>
-    </footer>
+<div id="footer"></div>
 
 
 
