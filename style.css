@@ -442,6 +442,9 @@ a {
     background-image: url(images/Projects.jpg);
     background-size: cover;
 }
+#contact-caption .overlay{
+    background: rgba(3, 102, 142, 0.75);
+}
 #contact-caption h2{
     text-transform: uppercase;
     color: #fff;
@@ -451,8 +454,8 @@ a {
 .multi-color-underline{
     width: 30px;
     border-bottom: 3px solid #03668e;
-    
 }
+
 
 
 
@@ -531,9 +534,8 @@ a {
     .story-text-mergin{
         margin-bottom: 20px;
     }
-    .vthumpnail img{
-        width: 100%;
-        height: auto;
+    .vthumpnail iframe{
+        height: 230px;
     }
     #our-story-section {
         margin-bottom: 20px;
