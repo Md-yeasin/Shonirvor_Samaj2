@@ -437,6 +437,7 @@ a {
 }
 /* Projects pages end */
 
+
 /* contact page start */
 #contact-caption{
     background-image: url(images/Projects.jpg);
@@ -450,13 +451,41 @@ a {
     color: #fff;
     padding: 30px 0px;
     font-weight: 700;
+    text-decoration: underline;
 }
 .multi-color-underline{
-    width: 30px;
-    border-bottom: 3px solid #03668e;
+ 
 }
-
-
+#contact-main{
+    background-color: #ffffff;
+}
+.adds-details-bg{
+    background-color: #EEF1F7;
+}
+.icon-heading i{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #03668e;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.icon-heading {
+   padding-bottom: 15px;
+}
+.adds-details-wrap{
+    width: 300px;
+    height: auto;
+    margin: 40px 40px 30px 40px;
+    background-color: #ffffff;
+}
+.adds-details{
+    padding: 20px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.form-wrap{
+    margin: 30px 30px 30px 200px;
+}
 
 
 /* Media Qurery */
@@ -535,7 +564,7 @@ a {
         margin-bottom: 20px;
     }
     .vthumpnail iframe{
-        height: 230px;
+        height: 208px;
     }
     #our-story-section {
         margin-bottom: 20px;
