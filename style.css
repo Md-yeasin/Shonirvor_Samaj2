@@ -457,10 +457,8 @@ a {
  
 }
 #contact-main{
-    background-color: #ffffff;
-}
-.adds-details-bg{
-    background-color: #EEF1F7;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #ffffff;
 }
 .icon-heading i{
     color: #ffffff;
@@ -474,19 +472,29 @@ a {
    padding-bottom: 15px;
 }
 .adds-details-wrap{
-    width: 300px;
-    height: auto;
-    margin: 40px 40px 30px 40px;
     background-color: #ffffff;
 }
 .adds-details{
-    padding: 20px;
-    border-bottom: 2px solid #f1f1f1;
+    padding: 30px;
+    border-bottom: 2px solid #03668e;
 }
-.form-wrap{
-    margin: 30px 30px 30px 200px;
+.form-wrap h1{
+    padding-bottom: 20px;
 }
-
+.form-wrap p{
+    padding-bottom: 30px;
+}
+.form-div input{
+    padding: 15px;
+    border-radius: 5px;
+}
+.form-div button{
+    padding: 10px 15px;
+    background-color: #03668e;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 5px;
+}
 
 /* Media Qurery */
 @media screen and (max-width: 575.98px) {
