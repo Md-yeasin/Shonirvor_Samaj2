@@ -495,7 +495,9 @@ a {
     border-radius: 5px;
     margin-top: 5px;
 }
-
+.map{
+    margin: 0px 30px;
+}
 
 /* Media Qurery */
 @media screen and (max-width: 575.98px) {
@@ -625,5 +627,10 @@ a {
     #project-side-nav .nav{
         border-right: none;
         padding-bottom: 15px;
+    }
+    /* contact-page */
+    .map{
+        margin: 0px 15px;
+        height: 250px;
     }
 }
