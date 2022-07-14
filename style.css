@@ -479,13 +479,13 @@ a {
     border-bottom: 2px solid #03668e;
 }
 .form-wrap h1{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .form-wrap p{
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 .form-div input{
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
 }
 .form-div button{
@@ -494,6 +494,9 @@ a {
     color: #ffffff;
     border-radius: 5px;
     margin-top: 5px;
+}
+.map{
+    margin: 0px 30px;
 }
 
 /* Media Qurery */
@@ -624,5 +627,10 @@ a {
     #project-side-nav .nav{
         border-right: none;
         padding-bottom: 15px;
+    }
+    /* contact-page */
+    .map{
+        margin: 0px 15px;
+        height: 250px;
     }
 }
