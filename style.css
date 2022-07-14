@@ -511,14 +511,15 @@ img{
 	padding: 80px 0;
 }
 .gallery img{
-	/* background-color: #ffffff; */
 	padding: 15px;
 	width: 100%;
-	/* box-shadow: 0 0 15px rgba(0,0,0,0.3); */
 	cursor: pointer;
 }
 #gallery-modal .modal-img{
 	width: 100%;
+}
+.modal-body {
+    padding: 0px;
 }
 /* Media Qurery */
 @media screen and (max-width: 575.98px) {
