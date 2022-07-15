@@ -30,14 +30,173 @@
 <body>
     <div id="header"></div>
 
-    <h1 class="text-center">The space for Donate pages</h1>
+    <section id="contact-caption">
+        <div class="container-fluid overlay">
+            <div class="content text-center">
+                <h2>Donation Confirmation</h2>
+                <div class="multi-color-underline"></div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact-main">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 p-lg-5 p-4">
+                    <div class="form-wrap">
+                        <div class="form-div">
+                            <form action="action.php">
+
+                                <fieldset>
+                                    <legend>Donation Details</legend>
+                                    <div class="row" >
+                                        <div class="col-md-4 col-6 py-2">
+                                        <label class="float-end" for="amount">Donation Amount</label>
+                                        </div>
+                                        <div class="col-md-8 col-6 py-2">
+                                           <div class="row">
+                                            <div class="col-lg-2">
+                                                <input class="form-radio-input" type="radio" value="$20" id="radioinput">
+                                                <label class="form-radio-label" for="radioinput">
+                                                    $20
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input class="form-radio-input" type="radio" value="$50" id="radioinput">
+                                                <label class="form-radio-label" for="radioinput">
+                                                    $50
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input class="form-radio-input" type="radio" value="$100" id="radioinput">
+                                                <label class="form-radio-label" for="radioinput">
+                                                    $100
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input class="form-radio-input" type="radio" value="$200" id="radioinput">
+                                                <label class="form-radio-label" for="radioinput">
+                                                    $200
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-4 d-inline">
+                                                <input class="form-radio-input" type="radio" value="$200" id="radioinput">
+                                                <input style="width:80%; padding: 0px 3px;" type="number" placeholder="Random Amount">
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-md-4 col-6 py-2">
+                                        <label class="float-end" for="amount">Payment Method</label>
+                                        </div>
+                                        <div class="col-md-8 col-6 py-2">
+                                           <div class="row">
+                                            <div class="col-lg-6">
+                                                <input class="form-radio-input" type="radio" value="$20" id="radioinput">
+                                                <label class="form-radio-label" for="radioinput">
+                                                    Offline Payment
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <input class="form-radio-input" type="radio" value="$50" id="radioinput">
+                                                <label class="form-radio-label" for="radioinput">
+                                                    Online Payment
+                                                </label>
+                                            </div>
+                                            
+                                           </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-md-4 col-6 py-2">
+                                        <label class="float-end" for="amount">Recurrence</label>
+                                        </div>
+                                        <div class="col-md-8 col-6 py-2">
+                                            <div >
+                                                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                                    <option selected>One Time</option>
+                                                    <option value="1">Weekly</option>
+                                                    <option value="2">Monthly</option>
+                                                    <option value="3">Yearly</option>
+                                                  </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-md-4 col-6 py-2 ">
+                                        <label class="float-end" for="amount">Campaigns</label>
+                                        </div>
+                                        <div class="col-md-8 col-6 py-2">
+                                            <div >
+                                                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                                    <option selected>Education</option>
+                                                    <option value="1">Orphan & Widow</option>
+                                                    <option value="2">Food Distribution</option>
+                                                    <option value="3">Cash assistance</option>
+                                                  </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Message</legend>
+                                    <textarea class="my-2 p-1" placeholder="Write your text here" name="details" id="#" style="width: 100%; height: 150px; border-radius: 5px;"></textarea>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Donar Details</legend>
+                                    
+                                    <div class="row" >
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                                        </div>
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="text" class="form-control" placeholder="Father's Name" aria-label="Father's Name">
+                                        </div>
+                                    </div>
+    
+                                    <div class="row" >
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="tel" class="form-control" placeholder="Mobile" aria-label="First name">
+                                        </div>
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="email" class="form-control" placeholder="example@gmail.com" aria-label="Email">
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="text" class="form-control" placeholder="Occupation" aria-label="Occupation">
+                                        </div>
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="facebook" class="form-control" placeholder="www.facebook.com/akram" aria-label="facebook">
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="text" class="form-control" placeholder="Distric/Sub Distric" aria-label="District">
+                                        </div>
+                                        <div class="col-12 col-md-6 py-2">
+                                        <input type="text" class="form-control" placeholder="Home, Street, Ward" aria-label="Address">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                              
+
+                                <button>Send Donation</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div id="footer"></div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
