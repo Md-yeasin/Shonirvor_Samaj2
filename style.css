@@ -122,6 +122,18 @@ a {
     transition: 0.5s;
     font-weight: bolder;
 }
+.mobile-donate-btn a{
+    text-decoration: none;
+    color: #bcbcbc;
+    border: 2px solid #bcbcbc;
+    border-radius: 4px;
+    padding: 5px;
+    font: 12px;
+}
+.mobile-donate-btn:hover a{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
 
 .nav-link {
     color: #363838;
