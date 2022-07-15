@@ -110,13 +110,13 @@ a {
 }
 
 .donate-btn {
-    border: 4px solid #03668e;
+    border: 3px solid #03668e;
     border-radius: 5px;
     color: #03668e;
 }
 
 .donate-btn:hover {
-    border: 4px solid #03668e;
+    border: 3px solid #03668e;
     color: #ffffff;
     background-color: #03668e;
     transition: 0.5s;
