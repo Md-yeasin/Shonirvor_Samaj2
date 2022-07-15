@@ -521,6 +521,10 @@ img{
 .modal-body {
     padding: 0px;
 }
+/* Get involved */
+legend{
+    padding-top: 1.5rem;
+}
 /* Media Qurery */
 @media screen and (max-width: 575.98px) {
     .right-div .social-link a {
@@ -552,8 +556,6 @@ img{
     .card-col {
         margin-bottom: 10px;
     }
-
-    /* style-3-end */
 
     .navbar-brand img {
         width: 120px;
