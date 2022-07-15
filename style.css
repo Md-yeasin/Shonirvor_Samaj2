@@ -52,6 +52,24 @@ a {
     text-decoration: none;
 }
 
+#page-caption{
+    background-image: url(images/Projects.jpg);
+    background-size: cover;
+}
+#page-caption .overlay{
+    background: rgba(3, 102, 142, 0.75);
+}
+#page-caption .content h2{
+    color: #ffffff;
+    padding: 30px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+
 /* top-container-start */
 .container-top {
     background-color: #03668e;
@@ -86,8 +104,8 @@ a {
 .left-div p:hover i {
     color: #ffffff;
 }
-
 /* top-container-end */
+
 /* navigation-bar-start */
 .navbar-toggler:focus {
     box-shadow: none;
@@ -120,14 +138,13 @@ a {
     color: #ffffff;
     background-color: #03668e;
     transition: 0.5s;
-    font-weight: bolder;
 }
 .mobile-donate-btn a{
     text-decoration: none;
     color: #bcbcbc;
     border: 2px solid #bcbcbc;
     border-radius: 4px;
-    padding: 5px;
+    padding: 3px 4px;
     font: 12px;
 }
 .mobile-donate-btn:hover a{
@@ -142,7 +159,6 @@ a {
 
 .nav-link:hover {
     color: #03668e;
-    font-weight: 700;
 }
 
 .nav-item {
@@ -151,16 +167,11 @@ a {
 
 /* navigation-bar-end */
 
-
-
 /* carousel-start */
 .carousel-item {
     height: 100%;
 }
-
 /* carousel-end */
-
-
 
 /* card-start */
 #card-section {
@@ -200,9 +211,6 @@ a {
     font-weight: 700;
     text-transform: uppercase;
 }
-
-.card:hover img {}
-
 /* card-end */
 
 /* Our-story start */
@@ -325,7 +333,6 @@ a {
 .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 20px;
 }
-
 /* small carousel end */
 
 /* become-a-volunteer start */
@@ -376,8 +383,8 @@ a {
 
 .footer p {
     color: #000000;
-    padding: 15px 5px;
-    font-size: 16px;
+    padding: 10px 0px;
+    font-size: 15px;
 }
 
 .footer span {
@@ -391,26 +398,6 @@ a {
 }/* footer end */
 
 /* Projects pages start */
-#project-caption{
-    background-image: url(images/Projects.jpg);
-    background-size: cover;
-}
-#project-caption .overlay{
-    background: rgba(3, 102, 142, 0.75);
-}
-.#project-caption .content{
-    padding: 30px 10px;
-}
-#project-caption .content h2{
-    color: #ffffff;
-    padding-top: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-#project-caption .content p{
-    color: #ffe600;
-    padding-bottom: 20px;
-}
 #project-side-nav{
     background-color: #f1f1f1;
     padding-top: 100px;
@@ -451,23 +438,6 @@ a {
 
 
 /* contact page start */
-#contact-caption{
-    background-image: url(images/Projects.jpg);
-    background-size: cover;
-}
-#contact-caption .overlay{
-    background: rgba(3, 102, 142, 0.75);
-}
-#contact-caption h2{
-    text-transform: uppercase;
-    color: #fff;
-    padding: 30px 0px;
-    font-weight: 700;
-    text-decoration: underline;
-}
-.multi-color-underline{
- 
-}
 #contact-main{
     background-color: #f1f1f1;
     border-bottom: 2px solid #ffffff;
@@ -514,6 +484,7 @@ a {
 .map{
     margin: 0px 30px;
 }
+
 /* Gellary Page */
 img{
 	max-width: 100%;
@@ -533,10 +504,13 @@ img{
 .modal-body {
     padding: 0px;
 }
+
 /* Get involved */
 legend{
     padding-top: 1.5rem;
 }
+
+
 /* Media Qurery */
 @media screen and (max-width: 575.98px) {
     .right-div .social-link a {
@@ -641,7 +615,7 @@ legend{
         padding: 40px 0;
     }
     .footer p {
-        padding: 20px 5px;
+        padding: 10px 0px;
         font-size: 13px;
     }
     
@@ -671,5 +645,9 @@ legend{
     }
     .map{
         margin: 0px 15px;
+    }
+    /* Donation Page */
+    label{
+        font-size: 14px;
     }
 }
